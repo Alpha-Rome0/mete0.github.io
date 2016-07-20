@@ -1,0 +1,96 @@
+body, html {
+    background-color: #EDEDED !important;
+}
+
+.intro {
+    text-align: center;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro h5 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.taglines {
+    font-size: 1.875em;
+    color: white;
+    word-wrap: break-word;
+}
+
+.about .col {
+    margin-bottom: 24px;
+}
+
+.about h5 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.about h6 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.about hr {
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.about .card {
+    text-align: center;
+}
+
+.about .card-action {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.portfolio .col {
+    margin-bottom: 24px;
+}
+
+.portfolio h5 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.portfolio h6 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.portfolio hr {
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder {
+    clear: both;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+@media screen {
+    .taglines {
+    }
+
+    .tagline {
+        display: none;
+    }
+}
+
+.rounded-img {
+    border-radius: 10px;
+}

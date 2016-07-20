@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .chart rect {
+            stroke: white;
+            fill-opacity: .6;
+            fill: steelblue;
+        }
+        .bar.positive {
+            fill: steelblue;
+        }
+        .bar.negative {
+            fill: brown;
+        }
+        .axis text {
+            font: 11px sans-serif;
+        }
+        .axis path, .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Instagram posts with tag #CapitalOne</h1>
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="instagram.js"></script>
+<div id="count"></div>
+<div id="viz"></div>
+<table border="1" style="width:100%">
+    <tr>
+        <th>Username</th>
+        <th>Likes</th>
+        <th>Posts</th>
+        <th>Follows</th>
+        <th>Followers</th>
+        <th>Score</th>
+    </tr>
+</table>
+</body>
+</html>
