@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10c5c71c-601c-46f4-835a-1c00f03c91d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/capitalone/instagram.js" afterPath="$PROJECT_DIR$/capitalone/instagram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/capitalone/access.html" afterPath="$PROJECT_DIR$/capitalone/access.html" />
     </list>
     <ignored path="mete0.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="access.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capitalone/access.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04503753">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.18015012">
+              <caret line="8" column="222" selection-start-line="8" selection-start-column="222" selection-end-line="8" selection-end-column="222" />
               <folding />
             </state>
           </provider>
@@ -139,6 +139,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/capitalone/instagram.js" />
+        <option value="$PROJECT_DIR$/capitalone/access.html" />
       </list>
     </option>
   </component>
@@ -650,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capitalone/access.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04503753">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.18015012">
+          <caret line="8" column="222" selection-start-line="8" selection-start-column="222" selection-end-line="8" selection-end-column="222" />
           <folding />
         </state>
       </provider>
