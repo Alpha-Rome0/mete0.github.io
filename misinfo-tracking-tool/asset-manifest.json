@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/misinfo-tool/static/css/main.41e59836.css",
+    "main.js": "/misinfo-tool/static/js/main.7bab9729.js",
+    "static/js/787.20aa5a25.chunk.js": "/misinfo-tool/static/js/787.20aa5a25.chunk.js",
+    "index.html": "/misinfo-tool/index.html",
+    "main.41e59836.css.map": "/misinfo-tool/static/css/main.41e59836.css.map",
+    "main.7bab9729.js.map": "/misinfo-tool/static/js/main.7bab9729.js.map",
+    "787.20aa5a25.chunk.js.map": "/misinfo-tool/static/js/787.20aa5a25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41e59836.css",
+    "static/js/main.7bab9729.js"
+  ]
+}
