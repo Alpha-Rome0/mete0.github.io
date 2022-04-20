@@ -1,222 +1,217 @@
-<html xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-6.css">
+</head> 
 
-    <title>Andy Chung</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-
-    <!-- jQuery is required by Materialize to function -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="js/init.js"></script>
-
-
-</head>
 <body>
-<div class="intro indigo z-depth-1">
-    <img class="responsive-img circle"
-         src="andy.jpg"
-         width="128" height="128">
-    <h5 class="grey-text text-lighten-5">Andy Chung</h5>
-    <div class="taglines">
-        <span class="tagline tagline-1 blue-text text-lighten-2">Android Developer.</span>
-        <span class="tagline tagline-2 red-text">Web Developer.</span>
-        <span class="tagline tagline-3 green-text">Builder.</span>
-        <span class="tagline tagline-4 grey-text">Lifelong Learner.</span>
-        <span class="tagline tagline-4 cyan-text text-lighten-4">Makes things work.</span>
-        <span class="tagline tagline-3 purple-text text-lighten-4">Ambitious.</span>
-        <span class="tagline tagline-5 red-text text-accent-1">Continuously Improving.</span>
-        <span class="tagline tagline-6 indigo-text text-accent-1">Explorer.</span>
-        <span class="tagline tagline-7 blue-text text-lighten-3">Adventurer.</span>
-        <span class="tagline tagline-8 cyan-text text-lighten-4">On the Cutting Edge.</span>
-        <span class="tagline tagline-9 teal-text text-accent-1">Pushing the Boundaries.</span>
-        <span class="tagline tagline-10 green-text text-lighten-4">Efficient.</span>
-        <span class="tagline tagline-11 amber-text text-lighten-4">On Point.</span>
-        <span class="tagline tagline-12 deep-orange-text text-lighten-3">Implementer.</span>
-        <span class="tagline tagline-13 grey-text">The "Go To" Guy.</span>
-        <span class="tagline tagline-13 green-text">Dedicated.</span>
-        <span class="tagline tagline-13 green-text">Determined.</span>
-        <span class="tagline tagline-13 red-text">Dependable.</span>
-        <span class="tagline tagline-15 light-blue-text text-accent-1">Dreamer.</span>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.jpg" alt="" />
+                <h1 class="name">Andy Chung</h1>
+                <h3 class="tagline">Machine Learning Researcher</h3>
+                <h3 class="tagline">Data Scientist</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: yourname@email.com">alan.doe@website.com</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:0123 456 789">0123 456 789</a></li>
+                    <li class="website"><i class="fas fa-globe"></i><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li>
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="#" target="_blank">linkedin.com/in/alandoe</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="#" target="_blank">github.com/username</a></li>
+                    <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">MSc in Computer Science</h4>
+                    <h5 class="meta">University of London</h5>
+	                    <div class="time">2016 - 2018</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">BSc in Applied Mathematics</h4>
+                    <h5 class="meta">Bristol University</h5>
+                    <div class="time">2012 - 2016</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>English <span class="lang-desc">(Native)</span></li>
+                    <li>French <span class="lang-desc">(Professional)</span></li>
+                    <li>Spanish <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Climbing</li>
+                    <li>Snowboarding</li>
+                    <li>Cooking</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+                <div class="summary">
+                    <p>I am a technology geek and have been for as long as I can remember. I'm a seasoned Software Engineer with 3 years of experience working with various backend and machine learning technologies. I've designed and implemented multiple end-to-end systems using various AWS technologies such as Sagemaker, Kinesis steams, Lambda, EMR. I also have experience working with research and data scientists in implementing and productionalizing models.</p>
+                    <p>I spend my free time building cool things with technology. Some of my projects include building a cryptocurrency trading bot, deploying an Amazon Echo skill that was used by 650+ unique users, building a server that automates my HVAC system, and mining Google Voice to find the perfect phone number.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Lead Developer</h3>
+                            <div class="time">2019 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Startup Hubs, San Francisco</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Senior Software Engineer</h3>
+                            <div class="time">2018 - 2019</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Google, London</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">UI Developer</h3>
+                            <div class="time">2016 - 2018</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Amazon, London</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <div class="intro">
+                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/" target="_blank">CoderPro</a></span> - <span class="project-tagline">A responsive website template designed to help developers launch their software projects. </span>
+                    
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-5-template-for-saas-businesses/" target="_blank">Launch</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-5-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard</a></span> - <span class="project-tagline">A portfolio website template designed for software developers.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro</a></span> - <span class="project-tagline">A responsive Bootstrap theme designed to help app developers promote their mobile apps</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> - 
+                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Python &amp; Django</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">React &amp; Angular</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Ruby on Rails</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Sketch &amp; Photoshop</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
     </div>
-
-</div>
-
-<div class="container about">
-    <h5>about me</h5>
-    <hr>
-    <div class="row">
-        <div class="col s12 m4 l4">
-            <h6>Story</h6>
-            <p>I am a software engineer that has a passion for technology; a desire to make an impact; commitment to
-                challenging and rewarding work; dedication to growing skills with an industry leader; the ability to
-                collaborate across teams to solve hard problems, and interest in working side-by-side with an amazing
-                breadth of the best and brightest in the industry.</p>
-        </div>
-        <div class="col s12 m4 l4">
-            <h6>Profile</h6>
-            <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                    <img class="responsive-img circle"
-                         src="andy.jpg"
-                         width="64" height="128">
-                    <p>Check me out on LinkedIn and Github.</p>
-                </div>
-                <div class="card-action">
-                    <a href="https://www.linkedin.com/in/chung01"><img class="responsive-img"
-                                                                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2000px-Linkedin_icon.svg.png"
-                                                                       width="32" height="32"></a>
-                    <a href='https://github.com/mete0'><img class="responsive-img rounded-img"
-                                                            src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
-                                                            width="32" height="32"></a>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m4 l4">
-            <h6>Programming Experience</h6>
-            <ul id=pexp class="collapsible popout">
-                <li>
-                    <div id=c1 class="collapsible-header active down">
-                        <i class="material-icons">keyboard_arrow_down</i>Android Developer
-                    </div>
-                    <div class="collapsible-body"><p>Ive built several award winning apps at various hackathons. Check
-                        them out below.</p></div>
-                </li>
-                <li>
-                    <div id=c2 class="collapsible-header">
-                        <i class="material-icons">keyboard_arrow_right</i>Web Developer
-                    </div>
-                    <div class="collapsible-body"><p>I've built several responsive websites using HTML, CSS, and
-                        Javascript.</p></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-
-<div class="container portfolio">
-    <h5>projects</h5>
-    <hr>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col s12 m6 l4">
-            <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="aassist.PNG">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Autism Assist<i
-                            class="material-icons right">more_vert</i></span>
-                    <p>A Google Glass Augmented Reality app that helps people with autism.</p>
-                </div>
-                <div class="card-action">
-                    <a href="http://devpost.com/software/autismassist-rm6p5n">View on Devpost</a>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Autism Assist<i
-                            class="material-icons right">close</i></span>
-                    <p>Developed an augmented reality Google Glass app that helps people on the autistic spectrum
-                        perceive facial expression and emotions. Using the Affectiva Android SDK I was able to detect
-                        faces and project quantified values of attention and engagement on to the user's screen. I also
-                        implemented data visualization that displayed real time information of the data gathered from
-                        the Google Glass app on a webapp using a Firebase backend.</p>
-                </div>
-
-            </div>
-
-
-        </div>
-
-        <div class="col s12 m6 l4">
-            <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="dulynoted.PNG">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Duly Noted<i
-                            class="material-icons right">more_vert</i></span>
-                    <p>Webapp that takes notes so you don't have to.</p>
-                </div>
-                <div class="card-action">
-                    <a href="http://devpost.com/software/duly-noted">View on Devpost</a>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Duly Noted<i class="material-icons right">close</i></span>
-                    <p>Developed a webapp using Javascript and the HTML5 Speech Recognition API that take notes for you
-                        using voice recognition. The app will transcribe, indent paragraphs, create lists, and highlight
-                        key words (such as "exam" and "due"), and allow you to export them in pdf or txt format.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m6 l4">
-            <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="splitter.PNG">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">$plitter<i class="material-icons right">more_vert</i></span>
-                    <p>Split checks with ease by taking a picture of the receipt.</p>
-                </div>
-
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">$plitter<i
-                            class="material-icons right">close</i></span>
-                    <p>Developed an Android app that allows you to easily split a check among multiple party members.
-                        Uses the camera and optical character recognition to scan the check and Parse and the Nessie api
-                        to split the check among members of the party.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row" id="center">
-        <div class="col s12 m6 l4">
-            <div class="card small">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="syncloud.png">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Syncloud<i class="material-icons right">more_vert</i></span>
-                    <p>Listen to music synchronously with your friends.</p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Syncloud<i
-                            class="material-icons right">close</i></span>
-                    <p>Developed an android app that uses the Soundcloud api and a Node.js backend to play music
-                        synchronously over multiple devices.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m6 l4">
-            <div class="card small">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator"
-                         src="https://mgtvwric.files.wordpress.com/2015/07/capitalone-logo-2x-oasis.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4"><i
-                            class="material-icons right">more_vert</i></span>
-                    <p>Capital One Data Science Challenge.</p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i
-                            class="material-icons right">close</i></span>
-                    <p>Implemented a website in Javascript that fetches data from Instagram posts and performs sentiment
-                        analysis to determine whether they are positive, negative, or neutral. The data was then
-                        visualized using graphs generate with D3.js.</p>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
 </body>
-</html>
+</html> 
+
