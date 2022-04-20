@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/misinfo-tracking-tool/static/css/main.41e59836.css",
-    "main.js": "/misinfo-tracking-tool/static/js/main.5f1bdca9.js",
+    "main.js": "/misinfo-tracking-tool/static/js/main.da22cd34.js",
     "static/js/787.20aa5a25.chunk.js": "/misinfo-tracking-tool/static/js/787.20aa5a25.chunk.js",
     "index.html": "/misinfo-tracking-tool/index.html",
     "main.41e59836.css.map": "/misinfo-tracking-tool/static/css/main.41e59836.css.map",
-    "main.5f1bdca9.js.map": "/misinfo-tracking-tool/static/js/main.5f1bdca9.js.map",
+    "main.da22cd34.js.map": "/misinfo-tracking-tool/static/js/main.da22cd34.js.map",
     "787.20aa5a25.chunk.js.map": "/misinfo-tracking-tool/static/js/787.20aa5a25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41e59836.css",
-    "static/js/main.5f1bdca9.js"
+    "static/js/main.da22cd34.js"
   ]
 }
